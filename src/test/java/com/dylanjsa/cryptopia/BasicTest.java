@@ -1,27 +1,45 @@
-# cryptopia4j
-Simple java client side code for interacting with the Cryptopia API.
+/*
+ *
+ *  * The MIT License
+ *  *
+ *  * Copyright 2017 Dylan Janeke <dylancjaneke@gmail.com>.
+ *  *
+ *  * Permission is hereby granted, free of charge, to any person obtaining a copy
+ *  * of this software and associated documentation files (the "Software"), to deal
+ *  * in the Software without restriction, including without limitation the rights
+ *  * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ *  * copies of the Software, and to permit persons to whom the Software is
+ *  * furnished to do so, subject to the following conditions:
+ *  *
+ *  * The above copyright notice and this permission notice shall be included in
+ *  * all copies or substantial portions of the Software.
+ *  *
+ *  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ *  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ *  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ *  * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ *  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ *  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ *  * THE SOFTWARE.
+ *
+ */
+package com.dylanjsa.cryptopia;
 
-## Why
-Well, writing JSON parsers sucks - it's tedious work.
-I wrote this and figured I'll share it. I hope it helps!
+import com.dylanjsa.cryptopia.remote.data.MarketOrders;
+import com.dylanjsa.cryptopia.remote.data.TradeSubmission;
+import com.dylanjsa.cryptopia.remote.data.enums.TradeType;
+import com.dylanjsa.cryptopia.remote.data.enums.TransactionType;
+import org.junit.Test;
 
-## Status
-I wouldn't call this 'production-ready', literally grafted through the majority of methods available public and private and implemented them without really testing.
-Create an issue if you find anthing that's a problem.
-That being said there are some private methods I didn't implement, these are:
- - CancelTrade
- - SubmitTip
- - SubmitWithdraw
- - SubmitTransfer
- 
- Feel free to send me a pull request if you decide to implement them.
- 
- ## Maven
- Not yet, for now you can just include the code if you want - or add it to your multi-project gradle build.
- 
-## Usage
-```
-final CryptopiaClient client =
+import java.math.BigDecimal;
+import java.util.Arrays;
+
+/**
+ * Really just serves as a sample for using this lib.
+ * Created by Dylan Janeke on 2017/06/23.
+ */
+public class BasicTest {
+    final CryptopiaClient client =
             new CryptopiaClient();
 
     // * -- Public API -- * //
@@ -100,40 +118,4 @@ final CryptopiaClient client =
                 .setAmount(new BigDecimal(0.00000001))
             );
     }
-```
-
-## Dependencies
-Nothing but gson and junit.
-
-## Disclaimer
-I take no responsibility if you lose any funds by making incorrect trades or bugs encountered in this software.
-
-## Contributions
-Some coin is always appreciated, anything will help.
-
-### ANTSHARES
-AQ52NAbBzDFsvftJcEmEnwPvQW5VUKuQNo
-
-### BITCOIN
-1EPhr2CjANHv9dvgej5oigC4ywpEnWrSn7
-
-### LITECOIN
-Lc17LjPZKRioAWRSo54STYVbH3kUyDvBKF
-
-### DOGECOIN
-DQTr6zZ78GA5aGVomZYsTkgbfYzZqxtkfC
-
-### BYTECOIN
-21oL3ZbfKCyXNemGWfiHtgBLKr24ovhqzKBShxJ3rn1hUzQuyPYZjYZLPL7hgBVEe4KwLnKTsTi5m1dj53BJHdW47Z4uwDt
-
-### SIACOIN
-9ca3dc02e523758956b619e969a411a3c8fbe6d4bebbaff9ba0b6b02340a00a09f302cb73e1b
-
-### ETHEREUM
-0xAB91CD5Ce5aE6c4EDaeE154d3d0De1A7c261444A
-
-For any other coin donations please create an issue and I'll add an address, btw thanks for looking at the 'contributions' section, much appreciated!
-
-## License
-
-cryptopia4j is available under the MIT license. See the LICENSE file for more info.
+}
