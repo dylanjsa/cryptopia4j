@@ -122,6 +122,7 @@ Some coin is always appreciated, anything will help.
 | EOS | 0xA4f5fE327e6Ecc65Ee2c8F3BC1f61967C02eBfB5 |
 | Golem | 0xA4f5fE327e6Ecc65Ee2c8F3BC1f61967C02eBfB5 |
 | Litecoin | LLSRFWGbdqwUAuwgNNt3vjhsRWFw9gfQiK |
+| Dogecoin | D8HxWbYs1c21j1qMQ34JfXtHGG7RxskWts |
 
 For any other coin donations please create an issue and I'll add an address, btw thanks for looking at the 'contributions' section, much appreciated!
 
