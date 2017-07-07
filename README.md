@@ -111,6 +111,8 @@ I take no responsibility if you lose any funds by making incorrect trades or bug
 ## Contributions
 Some coin is always appreciated, anything will help.
 
+| Coin | Address |
+|------|---------|
 | Ethereum | 0xA4f5fE327e6Ecc65Ee2c8F3BC1f61967C02eBfB5 |
 | Aragon | 0xA4f5fE327e6Ecc65Ee2c8F3BC1f61967C02eBfB5 |
 | Augur | 0xA4f5fE327e6Ecc65Ee2c8F3BC1f61967C02eBfB5 |
