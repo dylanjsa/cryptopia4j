@@ -111,26 +111,15 @@ I take no responsibility if you lose any funds by making incorrect trades or bug
 ## Contributions
 Some coin is always appreciated, anything will help.
 
-### ANTSHARES
-AQ52NAbBzDFsvftJcEmEnwPvQW5VUKuQNo
-
-### BITCOIN
-1EPhr2CjANHv9dvgej5oigC4ywpEnWrSn7
-
-### LITECOIN
-Lc17LjPZKRioAWRSo54STYVbH3kUyDvBKF
-
-### DOGECOIN
-DQTr6zZ78GA5aGVomZYsTkgbfYzZqxtkfC
-
-### BYTECOIN
-21oL3ZbfKCyXNemGWfiHtgBLKr24ovhqzKBShxJ3rn1hUzQuyPYZjYZLPL7hgBVEe4KwLnKTsTi5m1dj53BJHdW47Z4uwDt
-
-### SIACOIN
-9ca3dc02e523758956b619e969a411a3c8fbe6d4bebbaff9ba0b6b02340a00a09f302cb73e1b
-
-### ETHEREUM
-0xAB91CD5Ce5aE6c4EDaeE154d3d0De1A7c261444A
+| Ethereum | 0xA4f5fE327e6Ecc65Ee2c8F3BC1f61967C02eBfB5 |
+| Aragon | 0xA4f5fE327e6Ecc65Ee2c8F3BC1f61967C02eBfB5 |
+| Augur | 0xA4f5fE327e6Ecc65Ee2c8F3BC1f61967C02eBfB5 |
+| Bitcoin | 1FByZdg8NZFcn1gRoTqS7CdyF6a8ecEm4K |
+| Dash | XwQoJMqXQ8EVRtWQez3dJJB7j3GKuWCneY |
+| Decred | Dsg4C1GqNu1Ma8MQTnCFNcsS4b96dBTA3A8 |
+| EOS | 0xA4f5fE327e6Ecc65Ee2c8F3BC1f61967C02eBfB5 |
+| Golem | 0xA4f5fE327e6Ecc65Ee2c8F3BC1f61967C02eBfB5 |
+| Litecoin | LLSRFWGbdqwUAuwgNNt3vjhsRWFw9gfQiK |
 
 For any other coin donations please create an issue and I'll add an address, btw thanks for looking at the 'contributions' section, much appreciated!
 
